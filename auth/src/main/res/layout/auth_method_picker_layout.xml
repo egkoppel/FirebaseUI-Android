@@ -21,6 +21,13 @@
             android:text="@string/sign_in_with_email"
             android:visibility="gone"
             tools:visibility="visible"/>
+        
+        <Button
+            android:id="@+id/email_provider"
+            style="@style/FirebaseUI.Button.AccountChooser.AnonymousButton"
+            android:text="@string/sign_in_anonymously"
+            android:visibility="gone"
+            tools:visibility="visible"/>
 
     </LinearLayout>
 
